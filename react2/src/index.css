@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 30px;
+}
+
+.card{
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
