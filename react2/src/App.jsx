@@ -31,10 +31,7 @@ const App = () => {
 
   return (
     <div>
-      {arr.map(function(elem){
-
-        return <Card user={elem} />
-      })}
+      <h1>Add to favorite</h1>
     </div>
   )
 }

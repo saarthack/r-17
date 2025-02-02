@@ -32,3 +32,24 @@ body{
     margin-bottom: 30px;
     object-fit: cover;
 }
+
+
+h1{
+    position: relative;
+    width: fit-content;
+}
+
+h1::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transition: all ease 0.3s;
+}
+
+h1:hover::after{
+    width: 100%;
+}
