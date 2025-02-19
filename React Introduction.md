@@ -1,3 +1,5 @@
+Syllabus
+
 React Introduction
 Real vs Virtual Dom
 React Folder Structure
