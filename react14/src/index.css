@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:gilroy;
+    color: #fff;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+  background-color: #111;
+}
+
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 60px;
+  white-space: nowrap;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 50px;
+  background-color: rgb(213, 53, 80);
+}
+
+.error{
+  color: red;
+  font-size: 50px;
+  
+}
